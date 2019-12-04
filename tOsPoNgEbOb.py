@@ -62,6 +62,7 @@ if __name__ == "__main__":
             
             # If one of the provided files fails, output error and fail
             except IOError:
+                # Quote SpongeBob, season 2, episode 34a, "Welcome to the Chum Bucket"
                 print("You: Open file " + sys.argv[i] + "\nPython: " + tOsPoNgEbOb("No, I don't really feel like it."))
                 exit()
     
